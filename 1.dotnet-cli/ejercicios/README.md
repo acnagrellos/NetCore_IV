@@ -10,4 +10,4 @@
 8. Enlazada el proyecto de consola del ejercicio anterior con la librería de clases net6.
 9. Crea un proyecto de solución llamada MiProyecto. Crea un proyecto de consola llamado MiConsola. Crea una librería de clases llamada MiLibreria. Añade los dos proyectos a la solucion. Enlazada el proyecto MiLibreria como dependencia de MiConsola. Lista las referencias de MiConsola.
 10. Crea los ficheros para la publicación del ejercicio anterior. Que su salida esté en una carpeta que se llame dist.
-11. Arregla el sln de la carpeta ejercicio10.
+11. Arregla el sln de la carpeta ejercicio11.
