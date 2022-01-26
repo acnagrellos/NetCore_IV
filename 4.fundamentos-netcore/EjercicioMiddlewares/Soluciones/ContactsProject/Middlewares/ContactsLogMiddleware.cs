@@ -17,8 +17,7 @@ namespace ContactsProject.Middlewares
             if (context.Request.Method == HttpMethod.Get.ToString() &&
                 context.Request.Path.HasValue &&
                 context.Request.Path.Value.StartsWith("/contacts") &&
-                context.Request.Path.Value.Split('/').Count() == 3 &&
-                context.Response.StatusCode == (int)HttpStatusCode.OK)
+                context.Request.Path.Value.Split('/').Count() == 3)
             {
                 var contactIdParam = context.Request.RouteValues.FirstOrDefault(r => r.Key == "contactId");
                 if (contactIdParam.Value != null)

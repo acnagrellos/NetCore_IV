@@ -29,5 +29,7 @@ namespace OrderApp.Domain
             Email = email;
             LastUpdate = DateTime.Now;
         }
+
+
     }
 }
